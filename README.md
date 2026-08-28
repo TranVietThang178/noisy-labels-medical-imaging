@@ -82,7 +82,7 @@ five pathologies: Cardiomegaly, Edema, Consolidation, Atelectasis, and Pleural E
 
 ## Model Checkpoints
 
-Pre-trained model checkpoints (.pt files, approximately 500MB total) are available at:
+Pre-trained model checkpoints (.pt files, approximately 4GB total) are available at:
 
 [https://drive.google.com/drive/folders/17NRwga0kE0IGkrGp8vyWo3MA43yJkJvn?usp=drive_link]
 
