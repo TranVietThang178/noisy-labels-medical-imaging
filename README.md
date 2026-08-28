@@ -50,7 +50,6 @@ Model checkpoints (.pt files) and the CheXpert dataset are not included due to s
 ```bash
 git clone https://github.com/YOUR_USERNAME/noisy-labels-medical-imaging.git
 cd noisy-labels-medical-imaging
-pip install -r requirements.txt
 ```
 
 Then follow the dataset setup instructions below and run the notebooks in order (00 through 08).
