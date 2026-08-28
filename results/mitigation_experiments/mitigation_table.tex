@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering
+\small
+\caption{Test AUC for mitigation methods across noise conditions. Mean $\pm$ standard deviation across 3 seeds. Bold indicates best per condition; * marks statistically significant improvement over no-mitigation baseline (p<0.05).}
+\label{tab:mitigation_results}
+\begin{tabular}{lcccc}
+\toprule
+Method & Asy 20\% & Asy 40\% & Sym 20\% & Sym 40\% \\
+\midrule
+No mitigation & 0.8681$\pm$0.0055 & 0.8489$\pm$0.0086 & 0.8769$\pm$0.0057 & 0.8339$\pm$0.0172 \\
+\midrule
+Confident Learning & 0.8670$\pm$0.0152 & 0.8495$\pm$0.0079 & 0.8723$\pm$0.0042 & 0.8156$\pm$0.0143 \\
+Co-teaching & 0.8503$\pm$0.0119 & 0.8312$\pm$0.0130 & 0.8573$\pm$0.0058 & 0.7943$\pm$0.0201 \\
+Label Smoothing & 0.8661$\pm$0.0108 & 0.8503$\pm$0.0129 & 0.8756$\pm$0.0074 & 0.8016$\pm$0.0066 \\
+MixUp & 0.8726$\pm$0.0012 & 0.8512$\pm$0.0025 & 0.8725$\pm$0.0026 & 0.8191$\pm$0.0188 \\
+\bottomrule
+\end{tabular}
+\end{table}

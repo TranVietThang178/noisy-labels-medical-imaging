@@ -1,0 +1,256 @@
+{
+  "experiment_name": "label_smoothing_asymmetric_20_seed456",
+  "method": "label_smoothing",
+  "noise_type": "asymmetric",
+  "noise_rate": 0.2,
+  "seed": 456,
+  "best_epoch": 4,
+  "best_val_auc": 0.8705025288086663,
+  "best_val_per_pathology_auc": {
+    "Cardiomegaly": 0.852774064171123,
+    "Edema": 0.9279017857142857,
+    "Consolidation": 0.8264705882352941,
+    "Atelectasis": 0.8274540682414697,
+    "Pleural Effusion": 0.9179121376811594
+  },
+  "test_mean_auc": 0.8730338224023872,
+  "test_per_pathology_auc": {
+    "Cardiomegaly": 0.9126320108462966,
+    "Edema": 0.9063175802312506,
+    "Consolidation": 0.7567167336577111,
+    "Atelectasis": 0.8488132911392406,
+    "Pleural Effusion": 0.940689496137438
+  },
+  "test_loss": 0.3886049302185283,
+  "history": {
+    "train_loss": [
+      0.5398968535501953,
+      0.5300228513265575,
+      0.5259973612562496,
+      0.5232386787133401,
+      0.5206579841710814
+    ],
+    "val_loss": [
+      0.4416582030909402,
+      0.43455115386417936,
+      0.4233348199299404,
+      0.4295647825513567,
+      0.4415466700281416
+    ],
+    "val_auc": [
+      0.8607668061097179,
+      0.8596137796626853,
+      0.8661206934140715,
+      0.8705025288086663,
+      0.8594760338715798
+    ],
+    "per_pathology_auc": [
+      {
+        "Cardiomegaly": 0.8537767379679143,
+        "Edema": 0.9162202380952381,
+        "Consolidation": 0.8108455882352942,
+        "Atelectasis": 0.8110236220472441,
+        "Pleural Effusion": 0.9119678442028986
+      },
+      {
+        "Cardiomegaly": 0.8426916221033869,
+        "Edema": 0.9183035714285714,
+        "Consolidation": 0.825,
+        "Atelectasis": 0.8051443569553806,
+        "Pleural Effusion": 0.9069293478260869
+      },
+      {
+        "Cardiomegaly": 0.8234737076648841,
+        "Edema": 0.9211309523809524,
+        "Consolidation": 0.8420955882352941,
+        "Atelectasis": 0.8381627296587926,
+        "Pleural Effusion": 0.9057404891304348
+      },
+      {
+        "Cardiomegaly": 0.852774064171123,
+        "Edema": 0.9279017857142857,
+        "Consolidation": 0.8264705882352941,
+        "Atelectasis": 0.8274540682414697,
+        "Pleural Effusion": 0.9179121376811594
+      },
+      {
+        "Cardiomegaly": 0.8317736185383242,
+        "Edema": 0.9237351190476191,
+        "Consolidation": 0.8169117647058824,
+        "Atelectasis": 0.8061417322834645,
+        "Pleural Effusion": 0.9188179347826086
+      }
+    ]
+  },
+  "total_time_minutes": 171.7602625131607,
+  "config": {
+    "batch_size": 32,
+    "num_workers": 0,
+    "learning_rate": 0.0001,
+    "num_epochs": 5,
+    "image_size": 224,
+    "weight_decay": 1e-05,
+    "early_stopping_patience": 2
+  },
+  "mitigation_config": {
+    "label_smoothing_epsilon": 0.1,
+    "mixup_alpha": 0.2,
+    "coteaching_forget_rate": 0.2,
+    "coteaching_warmup_epochs": 1,
+    "confident_learning_prune_ratio": 0.1
+  },
+  "test_secondary_metrics": {
+    "default_threshold": {
+      "threshold": 0.5,
+      "per_pathology": {
+        "Cardiomegaly": {
+          "f1": 0.387434554973822,
+          "f2": 0.2833078101071976,
+          "sensitivity": 0.24025974025974026,
+          "specificity": 1.0,
+          "precision": 1.0,
+          "tp": 37,
+          "fp": 0,
+          "tn": 364,
+          "fn": 117,
+          "threshold": 0.5
+        },
+        "Edema": {
+          "f1": 0.5859872611464968,
+          "f2": 0.583756345177665,
+          "sensitivity": 0.5822784810126582,
+          "specificity": 0.9271070615034168,
+          "precision": 0.5897435897435898,
+          "tp": 46,
+          "fp": 32,
+          "tn": 407,
+          "fn": 33,
+          "threshold": 0.5
+        },
+        "Consolidation": {
+          "f1": 0.0,
+          "f2": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "precision": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 489,
+          "fn": 29,
+          "threshold": 0.5
+        },
+        "Atelectasis": {
+          "f1": 0.16759776536312848,
+          "f2": 0.11485451761102604,
+          "sensitivity": 0.0949367088607595,
+          "specificity": 0.9833333333333333,
+          "precision": 0.7142857142857143,
+          "tp": 15,
+          "fp": 6,
+          "tn": 354,
+          "fn": 143,
+          "threshold": 0.5
+        },
+        "Pleural Effusion": {
+          "f1": 0.6877192982456141,
+          "f2": 0.8166666666666667,
+          "sensitivity": 0.9333333333333333,
+          "specificity": 0.801452784503632,
+          "precision": 0.5444444444444444,
+          "tp": 98,
+          "fp": 82,
+          "tn": 331,
+          "fn": 7,
+          "threshold": 0.5
+        }
+      },
+      "mean": {
+        "f1": 0.3657477759458122,
+        "f2": 0.35971706791251107,
+        "sensitivity": 0.37016165269329826,
+        "specificity": 0.9423786358680765,
+        "precision": 0.5696947496947498
+      }
+    },
+    "optimized_threshold": {
+      "thresholds": {
+        "Cardiomegaly": 0.08,
+        "Edema": 0.3499999999999999,
+        "Consolidation": 0.24999999999999994,
+        "Atelectasis": 0.25999999999999995,
+        "Pleural Effusion": 0.21999999999999997
+      },
+      "per_pathology": {
+        "Cardiomegaly": {
+          "f1": 0.6651162790697674,
+          "f2": 0.8015695067264574,
+          "sensitivity": 0.9285714285714286,
+          "specificity": 0.6346153846153846,
+          "precision": 0.5181159420289855,
+          "tp": 143,
+          "fp": 133,
+          "tn": 231,
+          "fn": 11,
+          "threshold": 0.08
+        },
+        "Edema": {
+          "f1": 0.5974025974025974,
+          "f2": 0.7371794871794872,
+          "sensitivity": 0.8734177215189873,
+          "specificity": 0.8109339407744874,
+          "precision": 0.45394736842105265,
+          "tp": 69,
+          "fp": 83,
+          "tn": 356,
+          "fn": 10,
+          "threshold": 0.3499999999999999
+        },
+        "Consolidation": {
+          "f1": 0.19607843137254902,
+          "f2": 0.3436426116838488,
+          "sensitivity": 0.6896551724137931,
+          "specificity": 0.6830265848670757,
+          "precision": 0.11428571428571428,
+          "tp": 20,
+          "fp": 155,
+          "tn": 334,
+          "fn": 9,
+          "threshold": 0.24999999999999994
+        },
+        "Atelectasis": {
+          "f1": 0.6666666666666666,
+          "f2": 0.7859531772575251,
+          "sensitivity": 0.8924050632911392,
+          "specificity": 0.6555555555555556,
+          "precision": 0.5320754716981132,
+          "tp": 141,
+          "fp": 124,
+          "tn": 236,
+          "fn": 17,
+          "threshold": 0.25999999999999995
+        },
+        "Pleural Effusion": {
+          "f1": 0.5198019801980198,
+          "f2": 0.7301808066759388,
+          "sensitivity": 1.0,
+          "specificity": 0.5302663438256658,
+          "precision": 0.3511705685618729,
+          "tp": 105,
+          "fp": 194,
+          "tn": 219,
+          "fn": 0,
+          "threshold": 0.21999999999999997
+        }
+      },
+      "mean": {
+        "f1": 0.5290131909419201,
+        "f2": 0.6797051179046515,
+        "sensitivity": 0.8768098771590698,
+        "specificity": 0.6628795619276338,
+        "precision": 0.3939190129991477
+      },
+      "optimize_metric": "f2",
+      "note": "Thresholds learned on validation set to maximize the optimize_metric; then applied to test set"
+    }
+  }
+}

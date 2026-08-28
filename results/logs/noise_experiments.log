@@ -1,0 +1,343 @@
+[2026-07-28 22:14:12] === SESSION START ===
+[2026-07-28 22:14:12] Pending experiments: 24
+[2026-07-28 22:14:12] START: symmetric_05_seed132
+[2026-07-28 22:31:37]   Epoch 1: train_loss=0.5225, val_auc=0.8565, time=17.4min
+[2026-07-28 22:31:37]     New best (AUC=0.8565)
+[2026-07-28 22:49:13]   Epoch 2: train_loss=0.5106, val_auc=0.8640, time=17.6min
+[2026-07-28 22:49:14]     New best (AUC=0.8640)
+[2026-07-28 23:06:53]   Epoch 3: train_loss=0.5058, val_auc=0.8687, time=17.7min
+[2026-07-28 23:06:53]     New best (AUC=0.8687)
+[2026-07-28 23:24:29]   Epoch 4: train_loss=0.5023, val_auc=0.8831, time=17.6min
+[2026-07-28 23:24:29]     New best (AUC=0.8831)
+[2026-07-28 23:42:06]   Epoch 5: train_loss=0.4991, val_auc=0.8684, time=17.6min
+[2026-07-28 23:42:07]   Evaluating best model on official test set...
+[2026-07-28 23:42:28] DONE: symmetric_05_seed132 | test_auc=0.8832 | time=88.3min
+[2026-07-28 23:45:28] START: symmetric_05_seed456
+[2026-07-29 00:03:49]   Epoch 1: train_loss=0.5229, val_auc=0.8644, time=18.3min
+[2026-07-29 00:03:49]     New best (AUC=0.8644)
+[2026-07-29 00:22:28]   Epoch 2: train_loss=0.5108, val_auc=0.8813, time=18.6min
+[2026-07-29 00:22:28]     New best (AUC=0.8813)
+[2026-07-29 00:40:59]   Epoch 3: train_loss=0.5059, val_auc=0.8755, time=18.5min
+[2026-07-29 00:59:27]   Epoch 4: train_loss=0.5022, val_auc=0.8794, time=18.5min
+[2026-07-29 00:59:27]   Early stopping at epoch 4
+[2026-07-29 00:59:27]   Evaluating best model on official test set...
+[2026-07-29 00:59:51] DONE: symmetric_05_seed456 | test_auc=0.8762 | time=74.4min
+[2026-07-29 01:02:52] START: symmetric_05_seed789
+[2026-07-29 01:21:25]   Epoch 1: train_loss=0.5234, val_auc=0.8641, time=18.6min
+[2026-07-29 01:21:25]     New best (AUC=0.8641)
+[2026-07-29 01:39:57]   Epoch 2: train_loss=0.5108, val_auc=0.8664, time=18.5min
+[2026-07-29 01:39:57]     New best (AUC=0.8664)
+[2026-07-29 01:58:21]   Epoch 3: train_loss=0.5058, val_auc=0.8587, time=18.4min
+[2026-07-29 02:16:47]   Epoch 4: train_loss=0.5022, val_auc=0.8739, time=18.4min
+[2026-07-29 02:16:47]     New best (AUC=0.8739)
+[2026-07-29 02:35:17]   Epoch 5: train_loss=0.4992, val_auc=0.8727, time=18.5min
+[2026-07-29 02:35:17]   Evaluating best model on official test set...
+[2026-07-29 02:35:41] DONE: symmetric_05_seed789 | test_auc=0.8780 | time=92.8min
+[2026-07-29 02:38:42] START: symmetric_10_seed132
+[2026-07-29 02:57:12]   Epoch 1: train_loss=0.5647, val_auc=0.8555, time=18.5min
+[2026-07-29 02:57:13]     New best (AUC=0.8555)
+[2026-07-29 03:15:45]   Epoch 2: train_loss=0.5554, val_auc=0.8603, time=18.5min
+[2026-07-29 03:15:46]     New best (AUC=0.8603)
+[2026-07-29 03:34:10]   Epoch 3: train_loss=0.5517, val_auc=0.8718, time=18.4min
+[2026-07-29 03:34:10]     New best (AUC=0.8718)
+[2026-07-29 03:52:37]   Epoch 4: train_loss=0.5487, val_auc=0.8850, time=18.4min
+[2026-07-29 03:52:37]     New best (AUC=0.8850)
+[2026-07-29 04:11:02]   Epoch 5: train_loss=0.5462, val_auc=0.8612, time=18.4min
+[2026-07-29 04:11:03]   Evaluating best model on official test set...
+[2026-07-29 04:11:27] DONE: symmetric_10_seed132 | test_auc=0.8864 | time=92.8min
+[2026-07-29 04:14:27] START: symmetric_10_seed456
+[2026-07-29 04:32:31]   Epoch 1: train_loss=0.5659, val_auc=0.8564, time=18.1min
+[2026-07-29 04:32:31]     New best (AUC=0.8564)
+[2026-07-29 04:50:08]   Epoch 2: train_loss=0.5558, val_auc=0.8723, time=17.6min
+[2026-07-29 04:50:08]     New best (AUC=0.8723)
+[2026-07-29 05:07:47]   Epoch 3: train_loss=0.5519, val_auc=0.8819, time=17.7min
+[2026-07-29 05:07:48]     New best (AUC=0.8819)
+[2026-07-29 05:25:22]   Epoch 4: train_loss=0.5490, val_auc=0.8740, time=17.6min
+[2026-07-29 05:43:02]   Epoch 5: train_loss=0.5464, val_auc=0.8600, time=17.7min
+[2026-07-29 05:43:02]   Early stopping at epoch 5
+[2026-07-29 05:43:02]   Evaluating best model on official test set...
+[2026-07-29 05:43:24] DONE: symmetric_10_seed456 | test_auc=0.8846 | time=89.0min
+[2026-07-29 05:46:24] START: symmetric_10_seed789
+[2026-07-29 06:04:13]   Epoch 1: train_loss=0.5658, val_auc=0.8396, time=17.8min
+[2026-07-29 06:04:13]     New best (AUC=0.8396)
+[2026-07-29 06:21:47]   Epoch 2: train_loss=0.5558, val_auc=0.8623, time=17.6min
+[2026-07-29 06:21:47]     New best (AUC=0.8623)
+[2026-07-29 06:39:23]   Epoch 3: train_loss=0.5519, val_auc=0.8494, time=17.6min
+[2026-07-29 06:56:59]   Epoch 4: train_loss=0.5490, val_auc=0.8698, time=17.6min
+[2026-07-29 06:56:59]     New best (AUC=0.8698)
+[2026-07-29 07:14:51]   Epoch 5: train_loss=0.5467, val_auc=0.8673, time=17.9min
+[2026-07-29 07:14:51]   Evaluating best model on official test set...
+[2026-07-29 07:15:13] DONE: symmetric_10_seed789 | test_auc=0.8757 | time=88.8min
+[2026-07-29 07:18:13] START: symmetric_20_seed132
+[2026-07-29 07:35:51]   Epoch 1: train_loss=0.6271, val_auc=0.8474, time=17.6min
+[2026-07-29 07:35:51]     New best (AUC=0.8474)
+[2026-07-29 07:53:23]   Epoch 2: train_loss=0.6215, val_auc=0.8570, time=17.5min
+[2026-07-29 07:53:23]     New best (AUC=0.8570)
+[2026-07-29 08:11:05]   Epoch 3: train_loss=0.6193, val_auc=0.8546, time=17.7min
+[2026-07-29 08:28:55]   Epoch 4: train_loss=0.6177, val_auc=0.8832, time=17.8min
+[2026-07-29 08:28:55]     New best (AUC=0.8832)
+[2026-07-29 08:46:38]   Epoch 5: train_loss=0.6162, val_auc=0.8523, time=17.7min
+[2026-07-29 08:46:38]   Evaluating best model on official test set...
+[2026-07-29 08:47:00] DONE: symmetric_20_seed132 | test_auc=0.8834 | time=88.8min
+[2026-07-29 08:50:00] START: symmetric_20_seed456
+[2026-07-29 09:07:34]   Epoch 1: train_loss=0.6283, val_auc=0.8384, time=17.6min
+[2026-07-29 09:07:34]     New best (AUC=0.8384)
+[2026-07-29 09:25:03]   Epoch 2: train_loss=0.6218, val_auc=0.8641, time=17.5min
+[2026-07-29 09:25:04]     New best (AUC=0.8641)
+[2026-07-29 09:42:40]   Epoch 3: train_loss=0.6194, val_auc=0.8637, time=17.6min
+[2026-07-29 10:00:10]   Epoch 4: train_loss=0.6177, val_auc=0.8802, time=17.5min
+[2026-07-29 10:00:10]     New best (AUC=0.8802)
+[2026-07-29 10:17:39]   Epoch 5: train_loss=0.6162, val_auc=0.8632, time=17.5min
+[2026-07-29 10:17:39]   Evaluating best model on official test set...
+[2026-07-29 10:18:00] DONE: symmetric_20_seed456 | test_auc=0.8732 | time=88.0min
+[2026-07-29 10:21:01] START: symmetric_20_seed789
+[2026-07-29 10:38:37]   Epoch 1: train_loss=0.6278, val_auc=0.8457, time=17.6min
+[2026-07-29 10:38:37]     New best (AUC=0.8457)
+[2026-07-29 10:56:18]   Epoch 2: train_loss=0.6215, val_auc=0.8687, time=17.7min
+[2026-07-29 10:56:19]     New best (AUC=0.8687)
+[2026-07-29 11:14:06]   Epoch 3: train_loss=0.6193, val_auc=0.8608, time=17.8min
+[2026-07-29 11:32:00]   Epoch 4: train_loss=0.6176, val_auc=0.8645, time=17.9min
+[2026-07-29 11:32:00]   Early stopping at epoch 4
+[2026-07-29 11:32:00]   Evaluating best model on official test set...
+[2026-07-29 11:32:22] DONE: symmetric_20_seed789 | test_auc=0.8741 | time=71.4min
+[2026-07-29 11:35:22] START: symmetric_40_seed132
+[2026-07-29 11:53:10]   Epoch 1: train_loss=0.6890, val_auc=0.7777, time=17.8min
+[2026-07-29 11:53:11]     New best (AUC=0.7777)
+[2026-07-29 12:10:44]   Epoch 2: train_loss=0.6877, val_auc=0.7904, time=17.6min
+[2026-07-29 12:10:44]     New best (AUC=0.7904)
+[2026-07-29 12:28:43]   Epoch 3: train_loss=0.6877, val_auc=0.7109, time=18.0min
+[2026-07-29 12:46:19]   Epoch 4: train_loss=0.6872, val_auc=0.8555, time=17.6min
+[2026-07-29 12:46:19]     New best (AUC=0.8555)
+[2026-07-29 13:04:08]   Epoch 5: train_loss=0.6871, val_auc=0.8042, time=17.8min
+[2026-07-29 13:04:08]   Evaluating best model on official test set...
+[2026-07-29 13:04:30] DONE: symmetric_40_seed132 | test_auc=0.8511 | time=89.1min
+[2026-07-29 13:07:30] START: symmetric_40_seed456
+[2026-07-29 13:25:17]   Epoch 1: train_loss=0.6890, val_auc=0.8147, time=17.8min
+[2026-07-29 13:25:17]     New best (AUC=0.8147)
+[2026-07-29 13:43:32]   Epoch 2: train_loss=0.6874, val_auc=0.8057, time=18.2min
+[2026-07-29 14:01:48]   Epoch 3: train_loss=0.6871, val_auc=0.8285, time=18.3min
+[2026-07-29 14:01:48]     New best (AUC=0.8285)
+[2026-07-29 14:21:15]   Epoch 4: train_loss=0.6868, val_auc=0.8502, time=19.5min
+[2026-07-29 14:21:16]     New best (AUC=0.8502)
+[2026-07-30 14:27:43] === SESSION START ===
+[2026-07-30 14:27:43] Pending experiments: 14
+[2026-07-30 14:27:43] START: symmetric_40_seed456
+[2026-07-30 14:27:44]   Resumed from epoch 4, best_val_auc=0.8285
+[2026-07-30 14:27:46] ERROR in symmetric_40_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:46] START: symmetric_40_seed789
+[2026-07-30 14:27:46] ERROR in symmetric_40_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:46] START: asymmetric_05_seed132
+[2026-07-30 14:27:47] ERROR in asymmetric_05_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:47] START: asymmetric_05_seed456
+[2026-07-30 14:27:47] ERROR in asymmetric_05_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:47] START: asymmetric_05_seed789
+[2026-07-30 14:27:48] ERROR in asymmetric_05_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:48] START: asymmetric_10_seed132
+[2026-07-30 14:27:48] ERROR in asymmetric_10_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:48] START: asymmetric_10_seed456
+[2026-07-30 14:27:49] ERROR in asymmetric_10_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:49] START: asymmetric_10_seed789
+[2026-07-30 14:27:49] ERROR in asymmetric_10_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:49] START: asymmetric_20_seed132
+[2026-07-30 14:27:50] ERROR in asymmetric_20_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:50] START: asymmetric_20_seed456
+[2026-07-30 14:27:50] ERROR in asymmetric_20_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:50] START: asymmetric_20_seed789
+[2026-07-30 14:27:51] ERROR in asymmetric_20_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:51] START: asymmetric_40_seed132
+[2026-07-30 14:27:51] ERROR in asymmetric_40_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:51] START: asymmetric_40_seed456
+[2026-07-30 14:27:51] ERROR in asymmetric_40_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:51] START: asymmetric_40_seed789
+[2026-07-30 14:27:52] ERROR in asymmetric_40_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:27:52] === SESSION END === Total time: 0.00 hours
+[2026-07-30 14:28:10] === SESSION START ===
+[2026-07-30 14:28:10] Pending experiments: 14
+[2026-07-30 14:28:10] START: symmetric_40_seed456
+[2026-07-30 14:28:10]   Resumed from epoch 4, best_val_auc=0.8285
+[2026-07-30 14:28:10] ERROR in symmetric_40_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:11] START: symmetric_40_seed789
+[2026-07-30 14:28:11] ERROR in symmetric_40_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:11] START: asymmetric_05_seed132
+[2026-07-30 14:28:11] ERROR in asymmetric_05_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:11] START: asymmetric_05_seed456
+[2026-07-30 14:28:12] ERROR in asymmetric_05_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:12] START: asymmetric_05_seed789
+[2026-07-30 14:28:12] ERROR in asymmetric_05_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:12] START: asymmetric_10_seed132
+[2026-07-30 14:28:12] ERROR in asymmetric_10_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:12] START: asymmetric_10_seed456
+[2026-07-30 14:28:13] ERROR in asymmetric_10_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:13] START: asymmetric_10_seed789
+[2026-07-30 14:28:13] ERROR in asymmetric_10_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:13] START: asymmetric_20_seed132
+[2026-07-30 14:28:14] ERROR in asymmetric_20_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:14] START: asymmetric_20_seed456
+[2026-07-30 14:28:14] ERROR in asymmetric_20_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:14] START: asymmetric_20_seed789
+[2026-07-30 14:28:14] ERROR in asymmetric_20_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:14] START: asymmetric_40_seed132
+[2026-07-30 14:28:15] ERROR in asymmetric_40_seed132: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:15] START: asymmetric_40_seed456
+[2026-07-30 14:28:15] ERROR in asymmetric_40_seed456: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:15] START: asymmetric_40_seed789
+[2026-07-30 14:28:15] ERROR in asymmetric_40_seed789: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-07-30 14:28:15] === SESSION END === Total time: 0.00 hours
+[2026-07-30 14:30:09] === SESSION START ===
+[2026-07-30 14:30:09] Pending experiments: 14
+[2026-07-30 14:30:09] START: symmetric_40_seed456
+[2026-07-30 14:30:10]   Resumed from epoch 4, best_val_auc=0.8285
+[2026-07-30 14:30:10] ERROR in symmetric_40_seed456: CUDA out of memory. Tried to allocate 22.00 MiB. GPU 0 has a total capacity of 7.96 GiB of which 5.37 GiB is free. Of the allocated memory 1.41 GiB is allocated by PyTorch, and 77.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[2026-07-30 14:30:10] START: symmetric_40_seed789
+[2026-07-30 14:41:32] === SESSION START ===
+[2026-07-30 14:41:32] Pending experiments: 14
+[2026-07-30 14:41:32] START: symmetric_40_seed456
+[2026-07-30 14:41:33]   Resumed from epoch 4, best_val_auc=0.8285
+[2026-07-30 14:58:44]   Epoch 5: train_loss=0.6865, val_auc=0.8513, time=17.2min
+[2026-07-30 14:58:44]     New best (AUC=0.8513)
+[2026-07-30 14:58:44]   Evaluating best model on official test set...
+[2026-07-30 14:59:07] DONE: symmetric_40_seed456 | test_auc=0.8338 | time=17.6min
+[2026-07-30 15:02:07] START: symmetric_40_seed789
+[2026-07-30 15:19:09]   Epoch 1: train_loss=0.6889, val_auc=0.8158, time=17.0min
+[2026-07-30 15:19:09]     New best (AUC=0.8158)
+[2026-07-30 15:36:14]   Epoch 2: train_loss=0.6874, val_auc=0.8061, time=17.1min
+[2026-07-30 15:53:14]   Epoch 3: train_loss=0.6871, val_auc=0.8308, time=17.0min
+[2026-07-30 15:53:14]     New best (AUC=0.8308)
+[2026-07-30 16:10:17]   Epoch 4: train_loss=0.6866, val_auc=0.8100, time=17.0min
+[2026-07-30 16:27:15]   Epoch 5: train_loss=0.6865, val_auc=0.8494, time=17.0min
+[2026-07-30 16:27:15]     New best (AUC=0.8494)
+[2026-07-30 16:27:15]   Evaluating best model on official test set...
+[2026-07-30 16:27:38] DONE: symmetric_40_seed789 | test_auc=0.8167 | time=85.5min
+[2026-07-30 16:30:38] START: asymmetric_05_seed132
+[2026-07-30 16:47:46]   Epoch 1: train_loss=0.4778, val_auc=0.8658, time=17.1min
+[2026-07-30 16:47:46]     New best (AUC=0.8658)
+[2026-07-30 17:04:44]   Epoch 2: train_loss=0.4633, val_auc=0.8742, time=17.0min
+[2026-07-30 17:04:45]     New best (AUC=0.8742)
+[2026-07-30 17:21:44]   Epoch 3: train_loss=0.4575, val_auc=0.8884, time=17.0min
+[2026-07-30 17:21:45]     New best (AUC=0.8884)
+[2026-07-30 17:38:48]   Epoch 4: train_loss=0.4528, val_auc=0.8793, time=17.1min
+[2026-07-30 17:55:51]   Epoch 5: train_loss=0.4489, val_auc=0.8664, time=17.0min
+[2026-07-30 17:55:51]   Early stopping at epoch 5
+[2026-07-30 17:55:51]   Evaluating best model on official test set...
+[2026-07-30 17:56:14] DONE: asymmetric_05_seed132 | test_auc=0.8879 | time=85.6min
+[2026-07-30 17:59:14] START: asymmetric_05_seed456
+[2026-07-30 18:16:26]   Epoch 1: train_loss=0.4787, val_auc=0.8695, time=17.2min
+[2026-07-30 18:16:26]     New best (AUC=0.8695)
+[2026-07-30 18:33:36]   Epoch 2: train_loss=0.4636, val_auc=0.8762, time=17.2min
+[2026-07-30 18:33:36]     New best (AUC=0.8762)
+[2026-07-30 18:50:43]   Epoch 3: train_loss=0.4576, val_auc=0.8755, time=17.1min
+[2026-07-30 19:07:52]   Epoch 4: train_loss=0.4533, val_auc=0.8721, time=17.1min
+[2026-07-30 19:07:52]   Early stopping at epoch 4
+[2026-07-30 19:07:52]   Evaluating best model on official test set...
+[2026-07-30 19:08:15] DONE: asymmetric_05_seed456 | test_auc=0.8674 | time=69.0min
+[2026-07-30 19:11:15] START: asymmetric_05_seed789
+[2026-07-30 19:28:23]   Epoch 1: train_loss=0.4786, val_auc=0.8553, time=17.1min
+[2026-07-30 19:28:23]     New best (AUC=0.8553)
+[2026-07-30 19:45:35]   Epoch 2: train_loss=0.4635, val_auc=0.8586, time=17.2min
+[2026-07-30 19:45:35]     New best (AUC=0.8586)
+[2026-07-30 20:02:40]   Epoch 3: train_loss=0.4577, val_auc=0.8562, time=17.1min
+[2026-07-30 20:19:46]   Epoch 4: train_loss=0.4530, val_auc=0.8649, time=17.1min
+[2026-07-30 20:19:46]     New best (AUC=0.8649)
+[2026-07-30 20:36:44]   Epoch 5: train_loss=0.4493, val_auc=0.8678, time=17.0min
+[2026-07-30 20:36:44]     New best (AUC=0.8678)
+[2026-07-30 20:36:44]   Evaluating best model on official test set...
+[2026-07-30 20:37:07] DONE: asymmetric_05_seed789 | test_auc=0.8821 | time=85.9min
+[2026-07-30 20:40:07] START: asymmetric_10_seed132
+[2026-07-30 20:57:16]   Epoch 1: train_loss=0.4842, val_auc=0.8633, time=17.1min
+[2026-07-30 20:57:16]     New best (AUC=0.8633)
+[2026-07-30 21:14:24]   Epoch 2: train_loss=0.4708, val_auc=0.8668, time=17.1min
+[2026-07-30 21:14:25]     New best (AUC=0.8668)
+[2026-07-30 21:31:22]   Epoch 3: train_loss=0.4654, val_auc=0.8835, time=17.0min
+[2026-07-30 21:31:23]     New best (AUC=0.8835)
+[2026-07-30 21:48:26]   Epoch 4: train_loss=0.4612, val_auc=0.8798, time=17.1min
+[2026-07-30 22:05:30]   Epoch 5: train_loss=0.4576, val_auc=0.8704, time=17.1min
+[2026-07-30 22:05:30]   Early stopping at epoch 5
+[2026-07-30 22:05:30]   Evaluating best model on official test set...
+[2026-07-30 22:05:53] DONE: asymmetric_10_seed132 | test_auc=0.8847 | time=85.8min
+[2026-07-30 22:08:53] START: asymmetric_10_seed456
+[2026-07-30 22:25:55]   Epoch 1: train_loss=0.4856, val_auc=0.8657, time=17.0min
+[2026-07-30 22:25:55]     New best (AUC=0.8657)
+[2026-07-30 22:42:55]   Epoch 2: train_loss=0.4713, val_auc=0.8655, time=17.0min
+[2026-07-30 22:59:56]   Epoch 3: train_loss=0.4655, val_auc=0.8623, time=17.0min
+[2026-07-30 22:59:56]   Early stopping at epoch 3
+[2026-07-30 22:59:56]   Evaluating best model on official test set...
+[2026-07-30 23:00:19] DONE: asymmetric_10_seed456 | test_auc=0.8727 | time=51.4min
+[2026-07-30 23:03:19] START: asymmetric_10_seed789
+[2026-07-30 23:20:28]   Epoch 1: train_loss=0.4851, val_auc=0.8566, time=17.2min
+[2026-07-30 23:20:29]     New best (AUC=0.8566)
+[2026-07-30 23:37:31]   Epoch 2: train_loss=0.4710, val_auc=0.8625, time=17.0min
+[2026-07-30 23:37:31]     New best (AUC=0.8625)
+[2026-07-30 23:54:29]   Epoch 3: train_loss=0.4656, val_auc=0.8535, time=17.0min
+[2026-07-31 00:11:36]   Epoch 4: train_loss=0.4612, val_auc=0.8733, time=17.1min
+[2026-07-31 00:11:36]     New best (AUC=0.8733)
+[2026-07-31 00:28:31]   Epoch 5: train_loss=0.4577, val_auc=0.8711, time=16.9min
+[2026-07-31 00:28:32]   Evaluating best model on official test set...
+[2026-07-31 00:28:54] DONE: asymmetric_10_seed789 | test_auc=0.8768 | time=85.6min
+[2026-07-31 00:31:55] START: asymmetric_20_seed132
+[2026-07-31 00:49:07]   Epoch 1: train_loss=0.4950, val_auc=0.8595, time=17.2min
+[2026-07-31 00:49:08]     New best (AUC=0.8595)
+[2026-07-31 01:06:10]   Epoch 2: train_loss=0.4825, val_auc=0.8635, time=17.0min
+[2026-07-31 01:06:10]     New best (AUC=0.8635)
+[2026-07-31 01:23:15]   Epoch 3: train_loss=0.4775, val_auc=0.8768, time=17.1min
+[2026-07-31 01:23:15]     New best (AUC=0.8768)
+[2026-07-31 01:40:10]   Epoch 4: train_loss=0.4735, val_auc=0.8796, time=16.9min
+[2026-07-31 01:40:10]     New best (AUC=0.8796)
+[2026-07-31 01:57:18]   Epoch 5: train_loss=0.4700, val_auc=0.8628, time=17.1min
+[2026-07-31 01:57:18]   Evaluating best model on official test set...
+[2026-07-31 01:57:41] DONE: asymmetric_20_seed132 | test_auc=0.8712 | time=85.8min
+[2026-07-31 02:00:41] START: asymmetric_20_seed456
+[2026-07-31 02:17:50]   Epoch 1: train_loss=0.4959, val_auc=0.8561, time=17.1min
+[2026-07-31 02:17:50]     New best (AUC=0.8561)
+[2026-07-31 02:34:56]   Epoch 2: train_loss=0.4826, val_auc=0.8586, time=17.1min
+[2026-07-31 02:34:56]     New best (AUC=0.8586)
+[2026-07-31 02:51:58]   Epoch 3: train_loss=0.4774, val_auc=0.8520, time=17.0min
+[2026-07-31 03:08:59]   Epoch 4: train_loss=0.4737, val_auc=0.8588, time=17.0min
+[2026-07-31 03:08:59]     New best (AUC=0.8588)
+[2026-07-31 03:25:59]   Epoch 5: train_loss=0.4702, val_auc=0.8672, time=17.0min
+[2026-07-31 03:26:00]     New best (AUC=0.8672)
+[2026-07-31 03:26:00]   Evaluating best model on official test set...
+[2026-07-31 03:26:22] DONE: asymmetric_20_seed456 | test_auc=0.8617 | time=85.7min
+[2026-07-31 03:29:22] START: asymmetric_20_seed789
+[2026-07-31 03:46:27]   Epoch 1: train_loss=0.4954, val_auc=0.8521, time=17.1min
+[2026-07-31 03:46:27]     New best (AUC=0.8521)
+[2026-07-31 04:03:24]   Epoch 2: train_loss=0.4826, val_auc=0.8558, time=17.0min
+[2026-07-31 04:03:24]     New best (AUC=0.8558)
+[2026-07-31 04:20:22]   Epoch 3: train_loss=0.4774, val_auc=0.8493, time=17.0min
+[2026-07-31 04:37:20]   Epoch 4: train_loss=0.4735, val_auc=0.8620, time=17.0min
+[2026-07-31 04:37:20]     New best (AUC=0.8620)
+[2026-07-31 04:54:23]   Epoch 5: train_loss=0.4701, val_auc=0.8645, time=17.1min
+[2026-07-31 04:54:23]     New best (AUC=0.8645)
+[2026-07-31 04:54:23]   Evaluating best model on official test set...
+[2026-07-31 04:54:46] DONE: asymmetric_20_seed789 | test_auc=0.8713 | time=85.4min
+[2026-07-31 04:57:46] START: asymmetric_40_seed132
+[2026-07-31 05:14:48]   Epoch 1: train_loss=0.5050, val_auc=0.8480, time=17.0min
+[2026-07-31 05:14:48]     New best (AUC=0.8480)
+[2026-07-31 05:31:50]   Epoch 2: train_loss=0.4935, val_auc=0.8513, time=17.0min
+[2026-07-31 05:31:50]     New best (AUC=0.8513)
+[2026-07-31 05:48:51]   Epoch 3: train_loss=0.4890, val_auc=0.8620, time=17.0min
+[2026-07-31 05:48:51]     New best (AUC=0.8620)
+[2026-07-31 06:05:46]   Epoch 4: train_loss=0.4855, val_auc=0.8659, time=16.9min
+[2026-07-31 06:05:46]     New best (AUC=0.8659)
+[2026-07-31 06:22:48]   Epoch 5: train_loss=0.4826, val_auc=0.8527, time=17.0min
+[2026-07-31 06:22:49]   Evaluating best model on official test set...
+[2026-07-31 06:23:11] DONE: asymmetric_40_seed132 | test_auc=0.8482 | time=85.4min
+[2026-07-31 06:26:11] START: asymmetric_40_seed456
+[2026-07-31 06:43:20]   Epoch 1: train_loss=0.5057, val_auc=0.8403, time=17.1min
+[2026-07-31 06:43:21]     New best (AUC=0.8403)
+[2026-07-31 07:00:23]   Epoch 2: train_loss=0.4939, val_auc=0.8402, time=17.0min
+[2026-07-31 07:17:28]   Epoch 3: train_loss=0.4893, val_auc=0.8522, time=17.1min
+[2026-07-31 07:17:28]     New best (AUC=0.8522)
+[2026-07-31 07:34:35]   Epoch 4: train_loss=0.4857, val_auc=0.8560, time=17.1min
+[2026-07-31 07:34:35]     New best (AUC=0.8560)
+[2026-07-31 07:51:45]   Epoch 5: train_loss=0.4826, val_auc=0.8535, time=17.2min
+[2026-07-31 07:51:45]   Evaluating best model on official test set...
+[2026-07-31 07:52:08] DONE: asymmetric_40_seed456 | test_auc=0.8578 | time=85.9min
+[2026-07-31 07:55:08] START: asymmetric_40_seed789
+[2026-07-31 08:12:15]   Epoch 1: train_loss=0.5056, val_auc=0.8480, time=17.1min
+[2026-07-31 08:12:15]     New best (AUC=0.8480)
+[2026-07-31 08:29:25]   Epoch 2: train_loss=0.4937, val_auc=0.8401, time=17.2min
+[2026-07-31 08:46:34]   Epoch 3: train_loss=0.4892, val_auc=0.8363, time=17.1min
+[2026-07-31 08:46:34]   Early stopping at epoch 3
+[2026-07-31 08:46:34]   Evaluating best model on official test set...
+[2026-07-31 08:46:57] DONE: asymmetric_40_seed789 | test_auc=0.8406 | time=51.8min
+[2026-07-31 08:46:57] === SESSION END === Total time: 18.09 hours

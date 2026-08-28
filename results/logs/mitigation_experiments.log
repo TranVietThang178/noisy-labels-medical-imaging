@@ -1,0 +1,649 @@
+[2026-08-10 03:27:43] === MITIGATION SESSION START === Pending: 96
+[2026-08-10 03:27:43] START: label_smoothing_symmetric_20_seed132
+[2026-08-10 03:27:45] ERROR in label_smoothing_symmetric_20_seed132: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+[2026-08-10 03:27:45] START: label_smoothing_symmetric_20_seed465
+[2026-08-10 03:27:46] ERROR in label_smoothing_symmetric_20_seed465: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED_CUDART
+[2026-08-10 03:27:46] START: label_smoothing_symmetric_20_seed798
+[2026-08-10 03:27:51] ERROR in label_smoothing_symmetric_20_seed798: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:27:51] START: label_smoothing_symmetric_40_seed132
+[2026-08-10 03:27:53] ERROR in label_smoothing_symmetric_40_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:27:53] START: label_smoothing_symmetric_40_seed465
+[2026-08-10 03:27:57] ERROR in label_smoothing_symmetric_40_seed465: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:27:57] START: label_smoothing_symmetric_40_seed798
+[2026-08-10 03:27:57] ERROR in label_smoothing_symmetric_40_seed798: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:27:58] START: label_smoothing_asymmetric_20_seed132
+[2026-08-10 03:27:58] ERROR in label_smoothing_asymmetric_20_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:27:58] START: label_smoothing_asymmetric_20_seed465
+[2026-08-10 03:28:00] ERROR in label_smoothing_asymmetric_20_seed465: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:00] START: label_smoothing_asymmetric_20_seed798
+[2026-08-10 03:28:00] ERROR in label_smoothing_asymmetric_20_seed798: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:00] START: label_smoothing_asymmetric_40_seed132
+[2026-08-10 03:28:01] ERROR in label_smoothing_asymmetric_40_seed132: Error tokenizing data. C error: out of memory
+[2026-08-10 03:28:02] START: label_smoothing_asymmetric_40_seed465
+[2026-08-10 03:28:02] ERROR in label_smoothing_asymmetric_40_seed465: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:02] START: label_smoothing_asymmetric_40_seed798
+[2026-08-10 03:28:03] ERROR in label_smoothing_asymmetric_40_seed798: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:03] START: label_smoothing_symmetric_05_seed132
+[2026-08-10 03:28:03] ERROR in label_smoothing_symmetric_05_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:03] START: label_smoothing_symmetric_05_seed465
+[2026-08-10 03:28:04] ERROR in label_smoothing_symmetric_05_seed465: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 03:28:04] START: label_smoothing_symmetric_05_seed798
+[2026-08-10 03:28:58] === MITIGATION SESSION START === Pending: 96
+[2026-08-10 03:28:58] START: label_smoothing_symmetric_20_seed132
+[2026-08-10 03:29:00] ERROR in label_smoothing_symmetric_20_seed132: bad allocation
+[2026-08-10 03:29:00] START: label_smoothing_symmetric_20_seed465
+[2026-08-10 03:35:29] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 03:35:29] START: coteaching_symmetric_20_seed132
+[2026-08-10 03:35:30] ERROR in coteaching_symmetric_20_seed132: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 7.96 GiB of which 5.08 GiB is free. Of the allocated memory 1.72 GiB is allocated by PyTorch, and 52.05 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[2026-08-10 03:35:30] START: coteaching_symmetric_20_seed456
+[2026-08-10 03:35:31] ERROR in coteaching_symmetric_20_seed456: Error tokenizing data. C error: out of memory
+[2026-08-10 03:35:31] START: coteaching_symmetric_20_seed789
+[2026-08-10 03:40:53] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 03:40:53] START: coteaching_symmetric_20_seed132
+[2026-08-10 03:42:04] ERROR in coteaching_symmetric_20_seed132: CUDA out of memory. Tried to allocate 12.00 MiB. GPU 0 has a total capacity of 7.96 GiB of which 511.00 MiB is free. Of the allocated memory 6.07 GiB is allocated by PyTorch, and 164.24 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[2026-08-10 03:42:05] START: coteaching_symmetric_20_seed456
+[2026-08-10 03:42:10] ERROR in coteaching_symmetric_20_seed456: 
+[2026-08-10 03:42:10] START: coteaching_symmetric_20_seed789
+[2026-08-10 03:50:30] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 03:50:30] START: coteaching_symmetric_20_seed132
+[2026-08-10 03:51:27] ERROR in coteaching_symmetric_20_seed132: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 0 has a total capacity of 7.96 GiB of which 1.17 GiB is free. Of the allocated memory 5.39 GiB is allocated by PyTorch, and 172.21 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+[2026-08-10 03:51:27] START: coteaching_symmetric_20_seed456
+[2026-08-10 03:53:34] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 03:53:34] START: coteaching_symmetric_20_seed132
+[2026-08-10 13:25:37] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 13:25:37] START: coteaching_symmetric_20_seed132
+[2026-08-10 13:25:39] ERROR in coteaching_symmetric_20_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 13:25:39] START: coteaching_symmetric_20_seed456
+[2026-08-10 13:25:40] ERROR in coteaching_symmetric_20_seed456: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 13:25:40] START: coteaching_symmetric_20_seed789
+[2026-08-10 13:26:05] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 13:26:05] START: coteaching_symmetric_20_seed132
+[2026-08-10 13:26:12] ERROR in coteaching_symmetric_20_seed132: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 13:26:13] START: coteaching_symmetric_20_seed456
+[2026-08-10 13:26:41] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 13:26:41] START: coteaching_symmetric_20_seed132
+[2026-08-10 13:26:42] ERROR in coteaching_symmetric_20_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-10 13:26:42] START: coteaching_symmetric_20_seed456
+[2026-08-10 23:29:35] === MITIGATION SESSION START === Pending: 24
+[2026-08-10 23:29:35] START: mixup_symmetric_20_seed132
+[2026-08-11 00:06:58]   Epoch 1: train_loss=0.6324, val_auc=0.8520
+[2026-08-11 00:42:03]   Epoch 2: train_loss=0.6278, val_auc=0.8577
+[2026-08-11 01:18:57]   Epoch 3: train_loss=0.6259, val_auc=0.8621
+[2026-08-11 01:54:37]   Epoch 4: train_loss=0.6248, val_auc=0.8755
+[2026-08-11 02:30:38]   Epoch 5: train_loss=0.6236, val_auc=0.8596
+[2026-08-11 02:30:38]   Evaluating best model on official test set
+[2026-08-11 02:31:06] DONE: mixup_symmetric_20_seed132 | test_auc=0.8697 | time=181.5min
+[2026-08-11 02:34:06] START: mixup_symmetric_20_seed456
+[2026-08-11 03:10:01]   Epoch 1: train_loss=0.6331, val_auc=0.8659
+[2026-08-11 03:46:16]   Epoch 2: train_loss=0.6280, val_auc=0.8603
+[2026-08-11 04:21:48]   Epoch 3: train_loss=0.6258, val_auc=0.8678
+[2026-08-11 04:58:05]   Epoch 4: train_loss=0.6245, val_auc=0.8839
+[2026-08-11 05:35:23]   Epoch 5: train_loss=0.6238, val_auc=0.8671
+[2026-08-11 05:35:23]   Evaluating best model on official test set
+[2026-08-11 05:35:51] DONE: mixup_symmetric_20_seed456 | test_auc=0.8748 | time=181.7min
+[2026-08-11 05:38:51] START: mixup_symmetric_20_seed789
+[2026-08-11 06:15:06]   Epoch 1: train_loss=0.6329, val_auc=0.8402
+[2026-08-11 06:51:25]   Epoch 2: train_loss=0.6280, val_auc=0.8696
+[2026-08-11 09:12:09] === MITIGATION SESSION START === Pending: 22
+[2026-08-11 09:12:09] START: mixup_symmetric_20_seed789
+[2026-08-11 09:46:57]   Epoch 1: train_loss=0.6329, val_auc=0.8402
+[2026-08-11 11:34:58] === MITIGATION SESSION START === Pending: 22
+[2026-08-11 11:34:58] START: mixup_symmetric_20_seed789
+[2026-08-11 12:10:05]   Epoch 1: train_loss=0.6329, val_auc=0.8402
+[2026-08-11 12:40:53]   Epoch 2: train_loss=0.6280, val_auc=0.8696
+[2026-08-11 13:11:27]   Epoch 3: train_loss=0.6260, val_auc=0.8649
+[2026-08-11 13:42:56]   Epoch 4: train_loss=0.6246, val_auc=0.8775
+[2026-08-11 14:13:53]   Epoch 5: train_loss=0.6237, val_auc=0.8633
+[2026-08-11 14:13:53]   Evaluating best model on official test set
+[2026-08-11 14:14:19] DONE: mixup_symmetric_20_seed789 | test_auc=0.8731 | time=159.4min
+[2026-08-11 14:17:20] START: mixup_symmetric_40_seed132
+[2026-08-11 14:50:02]   Epoch 1: train_loss=0.6888, val_auc=0.7954
+[2026-08-11 15:21:02]   Epoch 2: train_loss=0.6879, val_auc=0.8140
+[2026-08-11 15:51:53]   Epoch 3: train_loss=0.6877, val_auc=0.8259
+[2026-08-11 16:22:48]   Epoch 4: train_loss=0.6879, val_auc=0.8037
+[2026-08-11 16:53:44]   Epoch 5: train_loss=0.6875, val_auc=0.7827
+[2026-08-11 16:53:44]   Early stopping at epoch 5
+[2026-08-11 16:53:44]   Evaluating best model on official test set
+[2026-08-11 16:54:11] DONE: mixup_symmetric_40_seed132 | test_auc=0.8094 | time=156.9min
+[2026-08-11 16:57:11] START: mixup_symmetric_40_seed456
+[2026-08-11 17:29:41]   Epoch 1: train_loss=0.6892, val_auc=0.7924
+[2026-08-11 17:52:27] === MITIGATION SESSION START === Pending: 20
+[2026-08-11 17:52:27] START: mixup_symmetric_40_seed456
+[2026-08-11 17:52:31] ERROR in mixup_symmetric_40_seed456: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:35] START: mixup_symmetric_40_seed789
+[2026-08-11 17:52:36] ERROR in mixup_symmetric_40_seed789: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:37] START: mixup_asymmetric_20_seed132
+[2026-08-11 17:52:37] ERROR in mixup_asymmetric_20_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:37] START: mixup_asymmetric_20_seed456
+[2026-08-11 17:52:38] ERROR in mixup_asymmetric_20_seed456: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:38] START: mixup_asymmetric_20_seed789
+[2026-08-11 17:52:39] ERROR in mixup_asymmetric_20_seed789: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:39] START: mixup_asymmetric_40_seed132
+[2026-08-11 17:52:40] ERROR in mixup_asymmetric_40_seed132: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:40] START: mixup_asymmetric_40_seed456
+[2026-08-11 17:52:40] ERROR in mixup_asymmetric_40_seed456: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:40] START: mixup_asymmetric_40_seed789
+[2026-08-11 17:52:41] ERROR in mixup_asymmetric_40_seed789: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-11 17:52:41] START: confident_learning_symmetric_20_seed132
+[2026-08-11 17:52:41]   Stage 1: Training initial model on noisy data
+[2026-08-11 17:53:00] === MITIGATION SESSION START === Pending: 20
+[2026-08-11 17:53:00] START: mixup_symmetric_40_seed456
+[2026-08-11 18:26:17]   Epoch 1: train_loss=0.6892, val_auc=0.7924
+[2026-08-11 18:58:09]   Epoch 2: train_loss=0.6879, val_auc=0.7784
+[2026-08-11 19:31:24]   Epoch 3: train_loss=0.6876, val_auc=0.8494
+[2026-08-11 20:05:08]   Epoch 4: train_loss=0.6873, val_auc=0.8478
+[2026-08-11 20:36:55]   Epoch 5: train_loss=0.6871, val_auc=0.8403
+[2026-08-11 20:36:55]   Early stopping at epoch 5
+[2026-08-11 20:36:55]   Evaluating best model on official test set
+[2026-08-11 20:37:20] DONE: mixup_symmetric_40_seed456 | test_auc=0.8408 | time=164.3min
+[2026-08-11 20:40:22] START: mixup_symmetric_40_seed789
+[2026-08-11 21:12:24]   Epoch 1: train_loss=0.6890, val_auc=0.7947
+[2026-08-11 21:43:43]   Epoch 2: train_loss=0.6879, val_auc=0.8123
+[2026-08-11 22:15:53]   Epoch 3: train_loss=0.6876, val_auc=0.8274
+[2026-08-11 22:47:05]   Epoch 4: train_loss=0.6873, val_auc=0.7939
+[2026-08-11 23:18:39]   Epoch 5: train_loss=0.6872, val_auc=0.8348
+[2026-08-11 23:18:39]   Evaluating best model on official test set
+[2026-08-11 23:19:05] DONE: mixup_symmetric_40_seed789 | test_auc=0.8072 | time=158.7min
+[2026-08-11 23:22:06] START: mixup_asymmetric_20_seed132
+[2026-08-11 23:54:53]   Epoch 1: train_loss=0.5122, val_auc=0.8579
+[2026-08-12 00:42:04] === MITIGATION SESSION START === Pending: 18
+[2026-08-12 00:42:04] START: mixup_asymmetric_20_seed132
+[2026-08-12 01:16:05]   Epoch 1: train_loss=0.5122, val_auc=0.8579
+[2026-08-12 01:47:49]   Epoch 2: train_loss=0.5021, val_auc=0.8639
+[2026-08-12 02:19:52]   Epoch 3: train_loss=0.4971, val_auc=0.8713
+[2026-08-12 02:51:47]   Epoch 4: train_loss=0.4947, val_auc=0.8674
+[2026-08-12 03:24:05]   Epoch 5: train_loss=0.4922, val_auc=0.8657
+[2026-08-12 03:24:06]   Early stopping at epoch 5
+[2026-08-12 03:24:06]   Evaluating best model on official test set
+[2026-08-12 03:24:29] DONE: mixup_asymmetric_20_seed132 | test_auc=0.8739 | time=162.4min
+[2026-08-12 03:27:30] START: mixup_asymmetric_20_seed456
+[2026-08-12 04:00:35]   Epoch 1: train_loss=0.5134, val_auc=0.8440
+[2026-08-12 04:32:19]   Epoch 2: train_loss=0.5020, val_auc=0.8467
+[2026-08-12 05:05:36]   Epoch 3: train_loss=0.4972, val_auc=0.8634
+[2026-08-12 05:37:54]   Epoch 4: train_loss=0.4947, val_auc=0.8637
+[2026-08-12 06:09:41]   Epoch 5: train_loss=0.4926, val_auc=0.8563
+[2026-08-12 06:09:41]   Evaluating best model on official test set
+[2026-08-12 06:10:07] DONE: mixup_asymmetric_20_seed456 | test_auc=0.8724 | time=162.6min
+[2026-08-12 06:13:07] START: mixup_asymmetric_20_seed789
+[2026-08-12 06:45:27]   Epoch 1: train_loss=0.5129, val_auc=0.8468
+[2026-08-12 07:17:10]   Epoch 2: train_loss=0.5027, val_auc=0.8517
+[2026-08-12 07:50:06]   Epoch 3: train_loss=0.4979, val_auc=0.8609
+[2026-08-12 08:22:42]   Epoch 4: train_loss=0.4950, val_auc=0.8665
+[2026-08-12 08:54:57]   Epoch 5: train_loss=0.4925, val_auc=0.8689
+[2026-08-12 08:54:57]   Evaluating best model on official test set
+[2026-08-12 08:55:21] DONE: mixup_asymmetric_20_seed789 | test_auc=0.8715 | time=162.2min
+[2026-08-12 08:58:21] START: mixup_asymmetric_40_seed132
+[2026-08-12 09:32:01]   Epoch 1: train_loss=0.5206, val_auc=0.8364
+[2026-08-12 10:05:19]   Epoch 2: train_loss=0.5114, val_auc=0.8559
+[2026-08-12 10:38:56]   Epoch 3: train_loss=0.5069, val_auc=0.8572
+[2026-08-12 11:11:31]   Epoch 4: train_loss=0.5045, val_auc=0.8513
+[2026-08-12 11:45:21]   Epoch 5: train_loss=0.5024, val_auc=0.8479
+[2026-08-12 11:45:21]   Early stopping at epoch 5
+[2026-08-12 11:45:21]   Evaluating best model on official test set
+[2026-08-12 11:45:45] DONE: mixup_asymmetric_40_seed132 | test_auc=0.8530 | time=167.4min
+[2026-08-12 11:48:45] START: mixup_asymmetric_40_seed456
+[2026-08-12 12:01:54] === MITIGATION SESSION START === Pending: 14
+[2026-08-12 12:01:54] START: mixup_asymmetric_40_seed456
+[2026-08-12 12:38:14]   Epoch 1: train_loss=0.5213, val_auc=0.8392
+[2026-08-12 13:13:00]   Epoch 2: train_loss=0.5112, val_auc=0.8391
+[2026-08-12 13:47:01]   Epoch 3: train_loss=0.5069, val_auc=0.8462
+[2026-08-12 14:20:04]   Epoch 4: train_loss=0.5046, val_auc=0.8537
+[2026-08-12 14:53:27]   Epoch 5: train_loss=0.5026, val_auc=0.8432
+[2026-08-12 14:53:27]   Evaluating best model on official test set
+[2026-08-12 14:53:53] DONE: mixup_asymmetric_40_seed456 | test_auc=0.8521 | time=172.0min
+[2026-08-12 14:56:54] START: mixup_asymmetric_40_seed789
+[2026-08-12 15:30:08]   Epoch 1: train_loss=0.5209, val_auc=0.8351
+[2026-08-12 16:03:14]   Epoch 2: train_loss=0.5115, val_auc=0.8297
+[2026-08-12 16:36:10]   Epoch 3: train_loss=0.5072, val_auc=0.8453
+[2026-08-12 17:09:26]   Epoch 4: train_loss=0.5046, val_auc=0.8493
+[2026-08-12 17:42:51]   Epoch 5: train_loss=0.5023, val_auc=0.8543
+[2026-08-12 17:42:51]   Evaluating best model on official test set
+[2026-08-12 17:43:16] DONE: mixup_asymmetric_40_seed789 | test_auc=0.8483 | time=166.4min
+[2026-08-12 17:46:16] START: confident_learning_symmetric_20_seed132
+[2026-08-12 17:46:16]   Stage 1: Training initial model on noisy data
+[2026-08-12 18:20:32]   Stage 1 Epoch 1: train_loss=0.6271
+[2026-08-12 18:54:05]   Stage 1 Epoch 2: train_loss=0.6214
+[2026-08-12 19:27:12]   Stage 1 Epoch 3: train_loss=0.6192
+[2026-08-12 19:27:12]   Identifying mislabeled samples with cleanlab
+[2026-08-12 21:20:45] === MITIGATION SESSION START === Pending: 12
+[2026-08-12 21:20:45] START: confident_learning_symmetric_20_seed132
+[2026-08-12 21:20:47]   Resumed from stage 1 epoch 3
+[2026-08-12 21:20:47]   Stage 1: Training initial model on noisy data
+[2026-08-12 21:20:47]   Identifying mislabeled samples with cleanlab
+[2026-08-12 21:46:39]   Cleanlab identified 0/191027 (0.0%) samples as mislabeled
+[2026-08-12 21:46:42]   Stage 2: Retraining on cleaned data
+[2026-08-12 22:18:24] === MITIGATION SESSION START === Pending: 12
+[2026-08-12 22:18:24] START: confident_learning_symmetric_20_seed132
+[2026-08-12 22:18:26]   Stage 1: Training initial model on noisy data
+[2026-08-12 22:53:17]   Stage 1 Epoch 1: train_loss=0.6271
+[2026-08-12 23:28:09]   Stage 1 Epoch 2: train_loss=0.6214
+[2026-08-13 00:02:44]   Stage 1 Epoch 3: train_loss=0.6192
+[2026-08-13 00:02:44]   Identifying mislabeled samples with cleanlab
+[2026-08-13 00:29:03]   Cleanlab identified 74178/191027 (38.8%) samples as mislabeled
+[2026-08-13 00:29:04]   Stage 2: Retraining on cleaned data
+[2026-08-13 00:50:51]   Stage 2 Epoch 1: train_loss=0.5291, val_auc=0.8512
+[2026-08-13 01:12:10]   Stage 2 Epoch 2: train_loss=0.5116, val_auc=0.8464
+[2026-08-13 01:33:10]   Stage 2 Epoch 3: train_loss=0.5055, val_auc=0.8686
+[2026-08-13 01:54:26]   Stage 2 Epoch 4: train_loss=0.5007, val_auc=0.8622
+[2026-08-13 02:15:17]   Stage 2 Epoch 5: train_loss=0.4966, val_auc=0.8511
+[2026-08-13 02:15:17]   Early stopping at epoch 5
+[2026-08-13 02:15:17]   Evaluating best model on official test set
+[2026-08-13 02:15:42] DONE: confident_learning_symmetric_20_seed132 | test_auc=0.8674 | time=237.3min
+[2026-08-13 02:18:42] START: confident_learning_symmetric_20_seed456
+[2026-08-13 02:18:43]   Stage 1: Training initial model on noisy data
+[2026-08-13 02:53:55]   Stage 1 Epoch 1: train_loss=0.6283
+[2026-08-13 03:29:13]   Stage 1 Epoch 2: train_loss=0.6216
+[2026-08-13 04:04:16]   Stage 1 Epoch 3: train_loss=0.6194
+[2026-08-13 04:04:16]   Identifying mislabeled samples with cleanlab
+[2026-08-13 04:30:50]   Cleanlab identified 72085/191027 (37.7%) samples as mislabeled
+[2026-08-13 04:30:50]   Stage 2: Retraining on cleaned data
+[2026-08-13 04:52:37]   Stage 2 Epoch 1: train_loss=0.5379, val_auc=0.8678
+[2026-08-13 05:14:16]   Stage 2 Epoch 2: train_loss=0.5212, val_auc=0.8807
+[2026-08-13 05:37:30]   Stage 2 Epoch 3: train_loss=0.5155, val_auc=0.8675
+[2026-08-13 06:00:40]   Stage 2 Epoch 4: train_loss=0.5108, val_auc=0.8660
+[2026-08-13 06:00:40]   Early stopping at epoch 4
+[2026-08-13 06:00:40]   Evaluating best model on official test set
+[2026-08-13 06:01:04] DONE: confident_learning_symmetric_20_seed456 | test_auc=0.8746 | time=222.4min
+[2026-08-13 06:04:04] START: confident_learning_symmetric_20_seed789
+[2026-08-13 06:04:05]   Stage 1: Training initial model on noisy data
+[2026-08-13 06:39:25]   Stage 1 Epoch 1: train_loss=0.6278
+[2026-08-13 07:14:43]   Stage 1 Epoch 2: train_loss=0.6217
+[2026-08-13 07:50:14]   Stage 1 Epoch 3: train_loss=0.6194
+[2026-08-13 07:50:14]   Identifying mislabeled samples with cleanlab
+[2026-08-13 10:04:31] === MITIGATION SESSION START === Pending: 10
+[2026-08-13 10:04:31] START: confident_learning_symmetric_20_seed789
+[2026-08-13 10:04:33]   Resumed from stage 1 epoch 3
+[2026-08-13 10:04:33]   Stage 1: Training initial model on noisy data
+[2026-08-13 10:04:33]   Identifying mislabeled samples with cleanlab
+[2026-08-13 10:32:06]   Cleanlab identified 73063/191027 (38.2%) samples as mislabeled
+[2026-08-13 10:32:06]   Stage 2: Retraining on cleaned data
+[2026-08-13 10:54:38]   Stage 2 Epoch 1: train_loss=0.5350, val_auc=0.8656
+[2026-08-13 11:17:27]   Stage 2 Epoch 2: train_loss=0.5179, val_auc=0.8776
+[2026-08-13 11:40:06]   Stage 2 Epoch 3: train_loss=0.5117, val_auc=0.8740
+[2026-08-13 12:02:35]   Stage 2 Epoch 4: train_loss=0.5073, val_auc=0.8773
+[2026-08-13 12:02:35]   Early stopping at epoch 4
+[2026-08-13 12:02:35]   Evaluating best model on official test set
+[2026-08-13 12:03:00] DONE: confident_learning_symmetric_20_seed789 | test_auc=0.8748 | time=118.5min
+[2026-08-13 12:06:00] START: confident_learning_symmetric_40_seed132
+[2026-08-13 12:06:00]   Stage 1: Training initial model on noisy data
+[2026-08-13 12:42:05] === MITIGATION SESSION START === Pending: 9
+[2026-08-13 12:42:05] START: confident_learning_symmetric_40_seed132
+[2026-08-13 12:42:06]   Stage 1: Training initial model on noisy data
+[2026-08-13 13:16:33]   Stage 1 Epoch 1: train_loss=0.6890
+[2026-08-13 13:51:56]   Stage 1 Epoch 2: train_loss=0.6878
+[2026-08-13 14:26:22]   Stage 1 Epoch 3: train_loss=0.6875
+[2026-08-13 14:26:22]   Identifying mislabeled samples with cleanlab
+[2026-08-13 14:51:45]   Cleanlab identified 68390/191027 (35.8%) samples as mislabeled
+[2026-08-13 14:51:46]   Stage 2: Retraining on cleaned data
+[2026-08-13 15:13:06]   Stage 2 Epoch 1: train_loss=0.6574, val_auc=0.8146
+[2026-08-13 15:34:14]   Stage 2 Epoch 2: train_loss=0.6506, val_auc=0.8271
+[2026-08-13 15:55:23]   Stage 2 Epoch 3: train_loss=0.6480, val_auc=0.8392
+[2026-08-13 16:16:34]   Stage 2 Epoch 4: train_loss=0.6457, val_auc=0.8202
+[2026-08-13 16:37:48]   Stage 2 Epoch 5: train_loss=0.6440, val_auc=0.8298
+[2026-08-13 16:37:48]   Early stopping at epoch 5
+[2026-08-13 16:37:48]   Evaluating best model on official test set
+[2026-08-13 16:38:15] DONE: confident_learning_symmetric_40_seed132 | test_auc=0.8085 | time=236.2min
+[2026-08-13 16:41:15] START: confident_learning_symmetric_40_seed456
+[2026-08-13 16:41:16]   Stage 1: Training initial model on noisy data
+[2026-08-13 17:15:03]   Stage 1 Epoch 1: train_loss=0.6890
+[2026-08-13 17:48:19]   Stage 1 Epoch 2: train_loss=0.6875
+[2026-08-13 18:22:15]   Stage 1 Epoch 3: train_loss=0.6872
+[2026-08-13 18:22:16]   Identifying mislabeled samples with cleanlab
+[2026-08-13 18:47:37]   Cleanlab identified 67479/191027 (35.3%) samples as mislabeled
+[2026-08-13 18:47:37]   Stage 2: Retraining on cleaned data
+[2026-08-13 19:09:02]   Stage 2 Epoch 1: train_loss=0.6573, val_auc=0.8189
+[2026-08-13 19:30:25]   Stage 2 Epoch 2: train_loss=0.6495, val_auc=0.8187
+[2026-08-13 19:51:46]   Stage 2 Epoch 3: train_loss=0.6466, val_auc=0.8357
+[2026-08-13 20:13:11]   Stage 2 Epoch 4: train_loss=0.6445, val_auc=0.8271
+[2026-08-13 20:34:23]   Stage 2 Epoch 5: train_loss=0.6424, val_auc=0.8051
+[2026-08-13 20:34:23]   Early stopping at epoch 5
+[2026-08-13 20:34:23]   Evaluating best model on official test set
+[2026-08-13 20:34:49] DONE: confident_learning_symmetric_40_seed456 | test_auc=0.8061 | time=233.6min
+[2026-08-13 20:37:49] START: confident_learning_symmetric_40_seed789
+[2026-08-13 20:37:50]   Stage 1: Training initial model on noisy data
+[2026-08-13 21:11:37]   Stage 1 Epoch 1: train_loss=0.6889
+[2026-08-13 21:45:02]   Stage 1 Epoch 2: train_loss=0.6875
+[2026-08-13 22:18:23]   Stage 1 Epoch 3: train_loss=0.6872
+[2026-08-13 22:18:23]   Identifying mislabeled samples with cleanlab
+[2026-08-13 22:45:01]   Cleanlab identified 64694/191027 (33.9%) samples as mislabeled
+[2026-08-13 22:45:02]   Stage 2: Retraining on cleaned data
+[2026-08-13 23:08:01]   Stage 2 Epoch 1: train_loss=0.6648, val_auc=0.8252
+[2026-08-13 23:30:34]   Stage 2 Epoch 2: train_loss=0.6586, val_auc=0.8418
+[2026-08-13 23:52:26]   Stage 2 Epoch 3: train_loss=0.6565, val_auc=0.8255
+[2026-08-14 00:14:22]   Stage 2 Epoch 4: train_loss=0.6545, val_auc=0.8568
+[2026-08-14 00:36:18]   Stage 2 Epoch 5: train_loss=0.6530, val_auc=0.8317
+[2026-08-14 00:36:19]   Evaluating best model on official test set
+[2026-08-14 00:36:45] DONE: confident_learning_symmetric_40_seed789 | test_auc=0.8321 | time=238.9min
+[2026-08-14 00:39:45] START: confident_learning_asymmetric_20_seed132
+[2026-08-14 00:39:46]   Stage 1: Training initial model on noisy data
+[2026-08-14 01:13:52]   Stage 1 Epoch 1: train_loss=0.4950
+[2026-08-14 01:47:41]   Stage 1 Epoch 2: train_loss=0.4824
+[2026-08-14 01:53:41] === MITIGATION SESSION START === Pending: 6
+[2026-08-14 01:53:41] START: confident_learning_asymmetric_20_seed132
+[2026-08-14 01:53:42]   Resumed from stage 1 epoch 2
+[2026-08-14 01:53:42]   Stage 1: Training initial model on noisy data
+[2026-08-14 02:28:46]   Stage 1 Epoch 3: train_loss=0.4754
+[2026-08-14 02:28:46]   Identifying mislabeled samples with cleanlab
+[2026-08-14 02:55:02]   Cleanlab identified 65540/191027 (34.3%) samples as mislabeled
+[2026-08-14 02:55:03]   Stage 2: Retraining on cleaned data
+[2026-08-14 03:16:59]   Stage 2 Epoch 1: train_loss=0.3489, val_auc=0.8634
+[2026-08-14 03:39:16]   Stage 2 Epoch 2: train_loss=0.3202, val_auc=0.8501
+[2026-08-14 04:01:37]   Stage 2 Epoch 3: train_loss=0.3101, val_auc=0.8537
+[2026-08-14 04:01:37]   Early stopping at epoch 3
+[2026-08-14 04:01:37]   Evaluating best model on official test set
+[2026-08-14 04:02:03] DONE: confident_learning_asymmetric_20_seed132 | test_auc=0.8610 | time=128.4min
+[2026-08-14 04:05:03] START: confident_learning_asymmetric_20_seed456
+[2026-08-14 04:05:04]   Stage 1: Training initial model on noisy data
+[2026-08-14 04:38:37]   Stage 1 Epoch 1: train_loss=0.4959
+[2026-08-14 05:12:48]   Stage 1 Epoch 2: train_loss=0.4825
+[2026-08-14 05:46:14]   Stage 1 Epoch 3: train_loss=0.4776
+[2026-08-14 05:46:14]   Identifying mislabeled samples with cleanlab
+[2026-08-14 06:11:40]   Cleanlab identified 66715/191027 (34.9%) samples as mislabeled
+[2026-08-14 06:11:40]   Stage 2: Retraining on cleaned data
+[2026-08-14 06:33:22]   Stage 2 Epoch 1: train_loss=0.3487, val_auc=0.8447
+[2026-08-14 06:55:02]   Stage 2 Epoch 2: train_loss=0.3193, val_auc=0.8652
+[2026-08-14 07:16:50]   Stage 2 Epoch 3: train_loss=0.3092, val_auc=0.8643
+[2026-08-14 07:38:24]   Stage 2 Epoch 4: train_loss=0.3020, val_auc=0.8614
+[2026-08-14 07:38:24]   Early stopping at epoch 4
+[2026-08-14 07:38:24]   Evaluating best model on official test set
+[2026-08-14 07:38:51] DONE: confident_learning_asymmetric_20_seed456 | test_auc=0.8556 | time=213.8min
+[2026-08-14 07:41:51] START: confident_learning_asymmetric_20_seed789
+[2026-08-14 07:41:51]   Stage 1: Training initial model on noisy data
+[2026-08-14 08:15:57]   Stage 1 Epoch 1: train_loss=0.4954
+[2026-08-14 08:49:51]   Stage 1 Epoch 2: train_loss=0.4825
+[2026-08-14 09:23:37]   Stage 1 Epoch 3: train_loss=0.4775
+[2026-08-14 09:23:37]   Identifying mislabeled samples with cleanlab
+[2026-08-14 09:48:47]   Cleanlab identified 67375/191027 (35.3%) samples as mislabeled
+[2026-08-14 09:48:48]   Stage 2: Retraining on cleaned data
+[2026-08-14 10:10:29]   Stage 2 Epoch 1: train_loss=0.3481, val_auc=0.8515
+[2026-08-14 10:31:40]   Stage 2 Epoch 2: train_loss=0.3202, val_auc=0.8787
+[2026-08-14 10:53:18]   Stage 2 Epoch 3: train_loss=0.3112, val_auc=0.8739
+[2026-08-14 11:14:48]   Stage 2 Epoch 4: train_loss=0.3042, val_auc=0.8634
+[2026-08-14 11:14:48]   Early stopping at epoch 4
+[2026-08-14 11:14:48]   Evaluating best model on official test set
+[2026-08-14 11:15:14] DONE: confident_learning_asymmetric_20_seed789 | test_auc=0.8842 | time=213.4min
+[2026-08-14 11:18:15] START: confident_learning_asymmetric_40_seed132
+[2026-08-14 11:18:15]   Stage 1: Training initial model on noisy data
+[2026-08-14 11:51:53]   Stage 1 Epoch 1: train_loss=0.5050
+[2026-08-14 12:25:18]   Stage 1 Epoch 2: train_loss=0.4935
+[2026-08-14 12:27:39] === MITIGATION SESSION START === Pending: 3
+[2026-08-14 12:27:39] START: confident_learning_asymmetric_40_seed132
+[2026-08-14 12:27:40]   Resumed from stage 1 epoch 2
+[2026-08-14 12:27:40]   Stage 1: Training initial model on noisy data
+[2026-08-14 13:01:35]   Stage 1 Epoch 3: train_loss=0.4875
+[2026-08-14 13:01:35]   Identifying mislabeled samples with cleanlab
+[2026-08-14 13:26:55]   Cleanlab identified 65795/191027 (34.4%) samples as mislabeled
+[2026-08-14 13:26:56]   Stage 2: Retraining on cleaned data
+[2026-08-14 13:48:51]   Stage 2 Epoch 1: train_loss=0.3747, val_auc=0.8479
+[2026-08-14 14:10:54]   Stage 2 Epoch 2: train_loss=0.3488, val_auc=0.8568
+[2026-08-14 14:32:56]   Stage 2 Epoch 3: train_loss=0.3399, val_auc=0.8428
+[2026-08-14 14:55:01]   Stage 2 Epoch 4: train_loss=0.3330, val_auc=0.8564
+[2026-08-14 14:55:01]   Early stopping at epoch 4
+[2026-08-14 14:55:01]   Evaluating best model on official test set
+[2026-08-14 14:55:27] DONE: confident_learning_asymmetric_40_seed132 | test_auc=0.8430 | time=147.8min
+[2026-08-14 14:58:27] START: confident_learning_asymmetric_40_seed456
+[2026-08-14 14:58:27]   Stage 1: Training initial model on noisy data
+[2026-08-14 15:32:36]   Stage 1 Epoch 1: train_loss=0.5057
+[2026-08-14 16:06:08]   Stage 1 Epoch 2: train_loss=0.4939
+[2026-08-14 16:39:41]   Stage 1 Epoch 3: train_loss=0.4892
+[2026-08-14 16:39:41]   Identifying mislabeled samples with cleanlab
+[2026-08-14 17:05:08]   Cleanlab identified 65930/191027 (34.5%) samples as mislabeled
+[2026-08-14 17:05:09]   Stage 2: Retraining on cleaned data
+[2026-08-14 17:27:16]   Stage 2 Epoch 1: train_loss=0.3777, val_auc=0.8448
+[2026-08-14 17:49:28]   Stage 2 Epoch 2: train_loss=0.3510, val_auc=0.8457
+[2026-08-14 18:11:38]   Stage 2 Epoch 3: train_loss=0.3423, val_auc=0.8532
+[2026-08-14 18:33:42]   Stage 2 Epoch 4: train_loss=0.3359, val_auc=0.8449
+[2026-08-14 18:55:43]   Stage 2 Epoch 5: train_loss=0.3306, val_auc=0.8475
+[2026-08-14 18:55:43]   Early stopping at epoch 5
+[2026-08-14 18:55:43]   Evaluating best model on official test set
+[2026-08-14 18:56:09] DONE: confident_learning_asymmetric_40_seed456 | test_auc=0.8473 | time=237.7min
+[2026-08-14 18:59:09] START: confident_learning_asymmetric_40_seed789
+[2026-08-14 18:59:09]   Stage 1: Training initial model on noisy data
+[2026-08-14 19:33:15]   Stage 1 Epoch 1: train_loss=0.5056
+[2026-08-14 20:07:15]   Stage 1 Epoch 2: train_loss=0.4936
+[2026-08-14 20:41:10]   Stage 1 Epoch 3: train_loss=0.4891
+[2026-08-14 20:41:11]   Identifying mislabeled samples with cleanlab
+[2026-08-14 21:06:33]   Cleanlab identified 68987/191027 (36.1%) samples as mislabeled
+[2026-08-14 21:06:33]   Stage 2: Retraining on cleaned data
+[2026-08-14 21:27:47]   Stage 2 Epoch 1: train_loss=0.3729, val_auc=0.8574
+[2026-08-14 21:49:11]   Stage 2 Epoch 2: train_loss=0.3464, val_auc=0.8431
+[2026-08-14 22:10:32]   Stage 2 Epoch 3: train_loss=0.3374, val_auc=0.8569
+[2026-08-14 22:10:32]   Early stopping at epoch 3
+[2026-08-14 22:10:32]   Evaluating best model on official test set
+[2026-08-14 22:10:59] DONE: confident_learning_asymmetric_40_seed789 | test_auc=0.8583 | time=191.8min
+[2026-08-14 22:10:59] === SESSION END === Total time: 9.72 hours
+[2026-08-14 22:22:12] === MITIGATION SESSION START === Pending: 12
+[2026-08-14 22:22:12] START: label_smoothing_symmetric_20_seed132
+[2026-08-14 22:27:00] === MITIGATION SESSION START === Pending: 12
+[2026-08-14 22:27:00] START: label_smoothing_symmetric_20_seed132
+[2026-08-14 22:27:03] ERROR in label_smoothing_symmetric_20_seed132: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:03] START: label_smoothing_symmetric_20_seed456
+[2026-08-14 22:27:04] ERROR in label_smoothing_symmetric_20_seed456: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:04] START: label_smoothing_symmetric_20_seed789
+[2026-08-14 22:27:05] ERROR in label_smoothing_symmetric_20_seed789: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:05] START: label_smoothing_symmetric_40_seed132
+[2026-08-14 22:27:06] ERROR in label_smoothing_symmetric_40_seed132: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:06] START: label_smoothing_symmetric_40_seed456
+[2026-08-14 22:27:07] ERROR in label_smoothing_symmetric_40_seed456: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:08] START: label_smoothing_symmetric_40_seed789
+[2026-08-14 22:27:09] ERROR in label_smoothing_symmetric_40_seed789: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:10] START: label_smoothing_asymmetric_20_seed132
+[2026-08-14 22:27:11] ERROR in label_smoothing_asymmetric_20_seed132: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:11] START: label_smoothing_asymmetric_20_seed456
+[2026-08-14 22:27:15] ERROR in label_smoothing_asymmetric_20_seed456: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:15] START: label_smoothing_asymmetric_20_seed789
+[2026-08-14 22:27:29] ERROR in label_smoothing_asymmetric_20_seed789: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:29] START: label_smoothing_asymmetric_40_seed132
+[2026-08-14 22:27:46] ERROR in label_smoothing_asymmetric_40_seed132: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:46] START: label_smoothing_asymmetric_40_seed456
+[2026-08-14 22:27:56] ERROR in label_smoothing_asymmetric_40_seed456: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:56] START: label_smoothing_asymmetric_40_seed789
+[2026-08-14 22:27:57] ERROR in label_smoothing_asymmetric_40_seed789: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+
+[2026-08-14 22:27:57] === SESSION END === Total time: 0.02 hours
+[2026-08-14 23:03:45] === MITIGATION SESSION START === Pending: 12
+[2026-08-14 23:03:45] START: label_smoothing_symmetric_20_seed132
+[2026-08-14 23:40:21]   Epoch 1: train_loss=0.6403, val_auc=0.8502
+[2026-08-15 00:14:16]   Epoch 2: train_loss=0.6357, val_auc=0.8564
+[2026-08-15 00:49:01]   Epoch 3: train_loss=0.6340, val_auc=0.8585
+[2026-08-15 01:23:43]   Epoch 4: train_loss=0.6326, val_auc=0.8735
+[2026-08-15 01:58:02]   Epoch 5: train_loss=0.6314, val_auc=0.8558
+[2026-08-15 01:58:02]   Evaluating best model on official test set
+[2026-08-15 01:58:31] DONE: label_smoothing_symmetric_20_seed132 | test_auc=0.8785 | time=174.8min
+[2026-08-15 02:01:31] START: label_smoothing_symmetric_20_seed456
+[2026-08-15 02:35:34]   Epoch 1: train_loss=0.6409, val_auc=0.8511
+[2026-08-15 03:11:09]   Epoch 2: train_loss=0.6359, val_auc=0.8659
+[2026-08-15 03:45:00]   Epoch 3: train_loss=0.6339, val_auc=0.8756
+[2026-08-15 04:18:56]   Epoch 4: train_loss=0.6326, val_auc=0.8736
+[2026-08-15 04:54:28]   Epoch 5: train_loss=0.6314, val_auc=0.8714
+[2026-08-15 04:54:28]   Early stopping at epoch 5
+[2026-08-15 04:54:28]   Evaluating best model on official test set
+[2026-08-15 04:54:58] DONE: label_smoothing_symmetric_20_seed456 | test_auc=0.8811 | time=173.4min
+[2026-08-15 04:57:58] START: label_smoothing_symmetric_20_seed789
+[2026-08-15 05:32:38]   Epoch 1: train_loss=0.6411, val_auc=0.8479
+[2026-08-15 06:06:55]   Epoch 2: train_loss=0.6358, val_auc=0.8706
+[2026-08-15 06:41:25]   Epoch 3: train_loss=0.6340, val_auc=0.8523
+[2026-08-15 07:15:14]   Epoch 4: train_loss=0.6327, val_auc=0.8679
+[2026-08-15 07:15:15]   Early stopping at epoch 4
+[2026-08-15 07:15:15]   Evaluating best model on official test set
+[2026-08-15 07:15:44] DONE: label_smoothing_symmetric_20_seed789 | test_auc=0.8671 | time=137.8min
+[2026-08-15 07:18:44] START: label_smoothing_symmetric_40_seed132
+[2026-08-15 07:53:00]   Epoch 1: train_loss=0.6899, val_auc=0.8162
+[2026-08-15 08:28:08]   Epoch 2: train_loss=0.6885, val_auc=0.8039
+[2026-08-15 09:02:11]   Epoch 3: train_loss=0.6883, val_auc=0.8094
+[2026-08-15 09:02:11]   Early stopping at epoch 3
+[2026-08-15 09:02:11]   Evaluating best model on official test set
+[2026-08-15 09:02:39] DONE: label_smoothing_symmetric_40_seed132 | test_auc=0.7945 | time=103.9min
+[2026-08-15 09:05:39] START: label_smoothing_symmetric_40_seed456
+[2026-08-15 09:40:37]   Epoch 1: train_loss=0.6898, val_auc=0.7823
+[2026-08-15 10:16:02]   Epoch 2: train_loss=0.6888, val_auc=0.7804
+[2026-08-15 10:51:27]   Epoch 3: train_loss=0.6885, val_auc=0.7922
+[2026-08-15 11:25:15]   Epoch 4: train_loss=0.6884, val_auc=0.8342
+[2026-08-15 11:59:30]   Epoch 5: train_loss=0.6882, val_auc=0.8362
+[2026-08-15 11:59:30]   Evaluating best model on official test set
+[2026-08-15 11:59:59] DONE: label_smoothing_symmetric_40_seed456 | test_auc=0.8075 | time=174.3min
+[2026-08-15 12:02:59] START: label_smoothing_symmetric_40_seed789
+[2026-08-15 12:38:23]   Epoch 1: train_loss=0.6898, val_auc=0.8292
+[2026-08-15 13:11:48]   Epoch 2: train_loss=0.6889, val_auc=0.8093
+[2026-08-15 13:45:35]   Epoch 3: train_loss=0.6886, val_auc=0.8104
+[2026-08-15 13:45:35]   Early stopping at epoch 3
+[2026-08-15 13:45:35]   Evaluating best model on official test set
+[2026-08-15 13:46:04] DONE: label_smoothing_symmetric_40_seed789 | test_auc=0.8028 | time=103.1min
+[2026-08-15 13:49:04] START: label_smoothing_asymmetric_20_seed132
+[2026-08-15 14:22:51]   Epoch 1: train_loss=0.5391, val_auc=0.8614
+[2026-08-15 14:57:13]   Epoch 2: train_loss=0.5296, val_auc=0.8629
+[2026-08-15 15:30:37]   Epoch 3: train_loss=0.5259, val_auc=0.8814
+[2026-08-15 16:04:05]   Epoch 4: train_loss=0.5229, val_auc=0.8759
+[2026-08-15 16:38:48]   Epoch 5: train_loss=0.5205, val_auc=0.8615
+[2026-08-15 16:38:48]   Early stopping at epoch 5
+[2026-08-15 16:38:48]   Evaluating best model on official test set
+[2026-08-15 16:39:15] DONE: label_smoothing_asymmetric_20_seed132 | test_auc=0.8717 | time=170.2min
+[2026-08-15 16:42:15] START: label_smoothing_asymmetric_20_seed456
+[2026-08-15 17:15:55]   Epoch 1: train_loss=0.5399, val_auc=0.8608
+[2026-08-15 17:50:31]   Epoch 2: train_loss=0.5300, val_auc=0.8596
+[2026-08-15 18:24:14]   Epoch 3: train_loss=0.5260, val_auc=0.8661
+[2026-08-15 18:58:03]   Epoch 4: train_loss=0.5232, val_auc=0.8705
+[2026-08-15 19:33:33]   Epoch 5: train_loss=0.5207, val_auc=0.8595
+[2026-08-15 19:33:33]   Evaluating best model on official test set
+[2026-08-15 19:34:01] DONE: label_smoothing_asymmetric_20_seed456 | test_auc=0.8730 | time=171.8min
+[2026-08-15 19:37:01] START: label_smoothing_asymmetric_20_seed789
+[2026-08-15 20:11:37]   Epoch 1: train_loss=0.5397, val_auc=0.8566
+[2026-08-15 20:45:37]   Epoch 2: train_loss=0.5299, val_auc=0.8515
+[2026-08-15 21:19:11]   Epoch 3: train_loss=0.5261, val_auc=0.8541
+[2026-08-15 21:19:11]   Early stopping at epoch 3
+[2026-08-15 21:19:11]   Evaluating best model on official test set
+[2026-08-15 21:19:39] DONE: label_smoothing_asymmetric_20_seed789 | test_auc=0.8536 | time=102.6min
+[2026-08-15 21:22:40] START: label_smoothing_asymmetric_40_seed132
+[2026-08-15 21:57:20]   Epoch 1: train_loss=0.5470, val_auc=0.8453
+[2026-08-15 22:31:58]   Epoch 2: train_loss=0.5384, val_auc=0.8486
+[2026-08-15 23:07:27]   Epoch 3: train_loss=0.5350, val_auc=0.8659
+[2026-08-15 23:41:43]   Epoch 4: train_loss=0.5322, val_auc=0.8632
+[2026-08-16 00:16:17]   Epoch 5: train_loss=0.5301, val_auc=0.8579
+[2026-08-16 00:16:17]   Early stopping at epoch 5
+[2026-08-16 00:16:17]   Evaluating best model on official test set
+[2026-08-16 00:16:45] DONE: label_smoothing_asymmetric_40_seed132 | test_auc=0.8633 | time=174.1min
+[2026-08-16 00:19:45] START: label_smoothing_asymmetric_40_seed456
+[2026-08-16 00:53:51]   Epoch 1: train_loss=0.5476, val_auc=0.8430
+[2026-08-16 01:29:03]   Epoch 2: train_loss=0.5386, val_auc=0.8433
+[2026-08-16 02:02:51]   Epoch 3: train_loss=0.5351, val_auc=0.8454
+[2026-08-16 02:36:54]   Epoch 4: train_loss=0.5325, val_auc=0.8517
+[2026-08-16 03:12:13]   Epoch 5: train_loss=0.5302, val_auc=0.8394
+[2026-08-16 03:12:13]   Evaluating best model on official test set
+[2026-08-16 03:12:43] DONE: label_smoothing_asymmetric_40_seed456 | test_auc=0.8499 | time=173.0min
+[2026-08-16 03:15:43] START: label_smoothing_asymmetric_40_seed789
+[2026-08-16 03:50:54]   Epoch 1: train_loss=0.5474, val_auc=0.8498
+[2026-08-16 04:25:48]   Epoch 2: train_loss=0.5384, val_auc=0.8422
+[2026-08-16 05:02:22]   Epoch 3: train_loss=0.5350, val_auc=0.8361
+[2026-08-16 05:02:22]   Early stopping at epoch 3
+[2026-08-16 05:02:22]   Evaluating best model on official test set
+[2026-08-16 05:02:51] DONE: label_smoothing_asymmetric_40_seed789 | test_auc=0.8376 | time=107.1min
+[2026-08-16 05:02:51] === SESSION END === Total time: 29.99 hours
+[2026-08-16 09:02:16] === MITIGATION SESSION START === Pending: 36
+[2026-08-16 09:02:16] START: mixup_symmetric_05_seed132
+[2026-08-16 09:37:14]   Epoch 1: train_loss=0.5383, val_auc=0.8604
+[2026-08-16 10:11:22]   Epoch 2: train_loss=0.5285, val_auc=0.8733
+[2026-08-16 10:45:17]   Epoch 3: train_loss=0.5240, val_auc=0.8742

@@ -1,8 +1,7 @@
 dissertation
 data/
 
-#Temporary
 models/
-results/
 
 requirements_local-laptop.txt
+test.ipynb

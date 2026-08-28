@@ -1,0 +1,17 @@
+method,noise_type,noise_rate,n_seeds,mean_diff_pp,t_statistic,p_value,significant
+confident_learning,asymmetric,0.2,3,-0.113,-0.158,0.8889,False
+confident_learning,asymmetric,0.4,3,0.065,0.075,0.9469,False
+confident_learning,symmetric,0.2,3,-0.463,-0.811,0.5025,False
+confident_learning,symmetric,0.4,3,-1.829,-1.052,0.4031,False
+coteaching,asymmetric,0.2,3,-1.783,-3.849,0.0614,False
+coteaching,asymmetric,0.4,3,-1.767,-1.433,0.2884,False
+coteaching,symmetric,0.2,3,-1.962,-5.17,0.0354,True
+coteaching,symmetric,0.4,3,-3.959,-5.11,0.0362,True
+label_smoothing,asymmetric,0.2,3,-0.195,-0.231,0.8389,False
+label_smoothing,asymmetric,0.4,3,0.143,0.205,0.8568,False
+label_smoothing,symmetric,0.2,3,-0.133,-0.286,0.8015,False
+label_smoothing,symmetric,0.4,3,-3.227,-2.543,0.126,False
+mixup,asymmetric,0.2,3,0.451,1.437,0.2873,False
+mixup,asymmetric,0.4,3,0.228,0.565,0.6292,False
+mixup,symmetric,0.2,3,-0.439,-0.925,0.4525,False
+mixup,symmetric,0.4,3,-1.473,-1.03,0.4113,False
