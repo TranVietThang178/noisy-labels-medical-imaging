@@ -1,5 +1,15 @@
 # Impact of Label Noise on Diagnostic Model Reliability in Chest X-ray Classification
 
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.13.0-EE4C2C?logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-13.2-76B900?logo=nvidia&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9.0-F7931E?logo=scikitlearn&logoColor=white)
+![cleanlab](https://img.shields.io/badge/cleanlab-2.9.0-5A4FCF)
+![NumPy](https://img.shields.io/badge/NumPy-2.5.0-013243?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-3.0.3-150458?logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-1.18.0-8CAAE6?logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.11.0-11557C)
+
 MSc in Data Science Dissertation, Atlantic Technological University, 2026.
 
 ## Overview
